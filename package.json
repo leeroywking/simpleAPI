@@ -1,24 +1,23 @@
 {
-  "name": "minimalAPI",
+  "name": "simpleAPI",
   "version": "1.0.0",
-  "description": "minimalAPI server for mocking responses",
-  "author": "leeroywking <leeroywking@gmail.com>",
+  "description": "simple api for json responses",
+  "author": "Lee-Roy King <leeroywking@gmail.com>",
   "keywords": [],
   "license": "MIT",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leeroywking/simpleAPI.git"
-  },
   "scripts": {
     "start": "./bin/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "faker": "^4.1.0",
     "http-errors": "^1.7.3",
-    "pino": "^5.13.6",
+    "pino": "^5.13.3",
     "pino-http": "^4.3.0",
-    "pino-pretty": "^3.3.0"
+    "pino-pretty": "^3.2.1"
   }
 }
