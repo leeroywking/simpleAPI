@@ -80,7 +80,7 @@ module.exports = function main(options, cb) {
   });
 
   // Start server
-  server = app.listen(opts.port, opts.host, function(err) {
+app.listen(process.env.PORT || 3000, function(err) {
     if (err) {
       return ready(err, app, server);
     }
